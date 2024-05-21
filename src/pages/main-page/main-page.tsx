@@ -1,6 +1,6 @@
 import { PlayButton } from "@/shared/ui/play-button"
 
-export const MainPage: React.FC = () => {
+const MainPage: React.FC = () => {
   return (
     <main className="bg-[#edecdc] grid gap-2 grid-cols-2 grid-rows-8 w-full h-screen">
       <section className=" ml-2 mt-2 border-2 border-black bg-red-500 rounded-b-[100px/50px] relative"></section>
@@ -25,3 +25,5 @@ export const MainPage: React.FC = () => {
     </main>
   )
 }
+
+export default MainPage
